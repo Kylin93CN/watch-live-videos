@@ -27,7 +27,7 @@ categories:
  
  其中flv需要注意视频的编码，目前flvjs仅支持 H.264 + AAC / MP3
  非此类型的会报错:
- ![flv-video](./images/play-error-flv.png)
+ ![flv-video](http://blog.lvxiang.site/2018/11/28/H5%E5%9C%A8%E7%BA%BF%E7%9B%B4%E6%92%AD/play-error-flv.png)
 [详情可见 https://github.com/Bilibili/flv.js#features](https://github.com/Bilibili/flv.js#features)
 
 转码借助于 ffmpeg，安装请自行百度。
@@ -56,7 +56,7 @@ node app.js
 设置——流——流类型选择自定义——url为rtmp://XX.XX.XX.XX/live——流名称自己定义。确定之后点击“开始推流”
 服务端会有信息打印出来。说明连接成功。
 
- ![flv-video](./images/obs-setting.png)
+ ![flv-video](http://blog.lvxiang.site/2018/11/28/H5%E5%9C%A8%E7%BA%BF%E7%9B%B4%E6%92%AD/obs-setting.png)
  
  4.播放直播流
  
